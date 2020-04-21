@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SpringresterrorhandlingaopApplication {
+public class Application {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringresterrorhandlingaopApplication.class, args);
+        SpringApplication.run(Application.class, args);
     }
 
 }
