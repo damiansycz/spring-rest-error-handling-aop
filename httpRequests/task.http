@@ -1,0 +1,9 @@
+### GET request with correct value of parameter
+GET http://localhost:8080/api/task/1
+Accept: application/json
+
+### GET request with random value of parameter
+GET http://localhost:8080/api/task/{{$randomInt}}
+Accept: application/json
+
+###
